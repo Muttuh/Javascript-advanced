@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#form{
+    display: block;
+    width: 350px;
+    margin: 40px auto 0;
+}
+fieldset {
+    padding: 15px;
+}
+p{
+    margin-bottom: 8px;
+}
+legend{
+    font-size: 17px;
+    display: block;
+    padding: 0 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.radio-variant{
+    display: inline-block;
+    width: 47%;
+}
+.row{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+#button {
+    padding: 5px;
+    cursor: pointer;
+}
+label {
+    cursor:pointer;
+}
