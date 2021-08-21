@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="" action="" id="form">
+    <fieldset>
+        <legend>Create Hamburger</legend>
+        <div class="row">
+            <p>Choose Size</p>
+            <div class="radio-variant">
+                <input type="radio" name="size" id="small" value="small" checked>
+                <label for="small">Small</label>
+            </div>
+            <div class="radio-variant">
+                <input type="radio" name="size" id="big" value="big">
+                <label for="big">Large</label>
+            </div>
+        </div>
+        <div class="row">
+            <p>Type</p>
+            <div class="radio-variant">
+                <input type="radio" name="type" id="cheese" value="cheese" checked>
+                <label for="cheese">Cheese</label><br>
+
+                <input type="radio" name="type" id="salad" value="salad">
+                <label for="salad">Salad</label><br>
+
+                <input type="radio" name="type" id="potato" value="potato">
+                <label for="potato">Potato</label><br>
+            </div>
+        </div>
+        <div class="row additions">
+            <p>Stuffing</p>
+            <div class="checkbox-variant">
+                <input type="checkbox" name="add" id="spices" value="spices">
+                <label for="spices">Spices</label>
+            </div>
+            <div class="checkbox-variant">
+                <input type="checkbox" name="add" id="mayonnaise" value="mayonnaise">
+                <label for="mayonnaise">Mayonnaise</label>
+            </div>
+        </div>
+        <div class="submit">
+            <button id="button">Make Order</button>
+        </div>
+    </fieldset>
+    <br />
+    <div>
+        <div id="price"></div>
+        <div id="calories"></div>
+    </div>
+</form>
+</body>
+</html>
